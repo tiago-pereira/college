@@ -1,4 +1,4 @@
-# Reposistório com trabalhos e projetos BCC - FURB
+# ReposistÃ³rio com trabalhos e projetos BCC - FURB/UNIVALI
 
 Semestres nos branches
 
