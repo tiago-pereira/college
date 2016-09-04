@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    #mycanvas {
+      left : 100px;
+      top: 100px;
+      background-color: white;
+    }
+    body {
+      background-color: black;
+    }
+
+    .controlPanel {
+      margin-bottom: 20px;
+      background-color: white;
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+    <div class="controlPanel">
+      <input type="radio" name="tool" value="line" checked="true"> Lining<br>
+      <input type="radio" name="tool" value="fill"> Filling<br>
+    </div>
+
+    <canvas id="mycanvas" onclick="onClick(event)"></canvas>
+
+    <script src="./index.js"></script>
+    <script src="./fill.js"></script>
+
+</body>
+</html>
